@@ -1,0 +1,7 @@
+1. Create a button named "Create new worksheet" in html page for intially creating new spreadseet using the "click" event handler of the button.
+
+1. Implement a function named "createWorksheet" to generate the markup on the same page.
+2. The markup  needs to have a default spreadsheet name,a list of menus like File,Edit,Insert etc, a table of 1000*1000 rows cols.
+3. Try to use the Ajax loader animation while the spreadsheet is displayed but it needs to be removed after the markup is generated so that it is not displayed behind the spreadsheet
+4. Clicking on the each cell in the table should highlight the border of the cell.To implement this bind an event handler to the .click() event of the td.The event handler needs to add the css class to highlight the border of the td.s
+5. Double clicking should allow to enter text in the cell.To implement this bind an event handler to the .dblclick() event of the td to add an input textfield inside the td.
